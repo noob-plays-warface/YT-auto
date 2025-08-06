@@ -1,0 +1,15 @@
+{
+  "name": "youtube-automation",
+  "version": "1.0.0",
+  "description": "Automated YouTube content creation",
+  "scripts": {
+    "start": "n8n start",
+    "dev": "n8n start --tunnel"
+  },
+  "dependencies": {
+    "n8n": "latest",
+    "canvas": "^2.11.2",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
